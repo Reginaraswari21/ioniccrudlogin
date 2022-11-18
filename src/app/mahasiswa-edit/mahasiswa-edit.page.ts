@@ -66,7 +66,7 @@ export class MahasiswaEditPage implements OnInit {
       }).then(res => {
         res.present();
       });
-      this.router.navigateByUrl('/mahasiswa');
+      this.router.navigateByUrl('/home');
     }, (err) => {
       this.alertController.create({
         header: 'Notifikasi',

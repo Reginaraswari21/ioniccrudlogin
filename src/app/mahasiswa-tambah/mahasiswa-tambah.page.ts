@@ -47,7 +47,7 @@ export class MahasiswaTambahPage implements OnInit {
       }).then(res => {
         res.present();
       });
-      this.router.navigateByUrl('/mahasiswa');
+      this.router.navigateByUrl('/home');
     }, (error) => {
       this.alertController.create({
         header: 'Notifikasi',
